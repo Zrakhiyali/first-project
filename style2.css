@@ -73,7 +73,7 @@ padding: 200px 0;
     margin-bottom:30px;
 }
 .lorem-button{
-    background-color: rgb(89, 165, 201);
+    background-color: rgb(51, 188, 223);
     color: rgb(249, 254, 255);
     border-radius: 50px;
     padding: 17px 51px;
@@ -144,7 +144,18 @@ color: aliceblue;
           font-size: 50px;
      clear: both;
     }
-    .box1 , .box2 ,.box3{
+    .box2 {
+        float :left;
+        padding: 70px 30px;
+        border: 1px solid rgb(175, 173, 173);
+               border-radius: 2px;
+            width: 25%;
+            height: 390px;
+                margin: 0px 10px;
+                background-color: white;
+                margin: 20px 20px;   
+    }
+    .box1 ,.box3{
         float :left;
 padding: 70px 30px;
 border: 1px solid rgb(175, 173, 173);
@@ -193,10 +204,10 @@ border-radius: 100%;
        }
        .services-content p{
            margin: 20px;
-           font-size: 24px;
+           font-size: 20px;
            color: rgb(92, 88, 88);
        }
-    @media screen and (max-width:800px) {
+    @media screen and (max-width:1350px) {
         .box1 , .box2 ,.box3{
 
             width: 100%;
@@ -205,10 +216,15 @@ border-radius: 100%;
      
         }
     }
-   
+   .about-1{
+     
+       margin-bottom: 30px;
+       padding-bottom: 30px;
+       padding-top: 20px;
+   }
     .about-1 h1{
-        padding-top: 100px;
-        font-size: 50px;
+        padding-top: 30px;
+        font-size: 45px;
         margin-top: 20px;
     }
     .about-1 p{
@@ -221,3 +237,120 @@ border-radius: 100%;
         text-align: center;
 
     }
+   .pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+
+}
+.about-2{   
+
+margin: 60px auto;
+    border-bottom: 1px solid rgb(197, 197, 197);
+    border-top: 1px solid rgb(197, 197, 197);
+text-align: center;
+width: 80%;
+padding: 50px 50px;
+  padding-bottom: 40px;
+}
+.about-2 >*{
+    float: left;
+}
+.about-2 div{
+    padding-left: 80px;
+}
+.about-2:after,.about-2:before{
+  
+        content: '';
+        clear: both;
+     display: block;
+
+
+    }
+   /* .about-2 h4{
+        margin-right: 20px;
+        margin-top: 10px;
+       }*/
+    .about-2 p{  
+line-height: 20px;
+
+
+     }
+
+    .profile1 ,   .profile2 ,   .profile3,   .profile4{
+        width: 15%;
+    }
+    .about-2 h4{
+        margin-top: 20px;
+font-size: 13px;
+    }
+    .pic{
+        float: left;
+    }
+    .about-3{
+        text-align:center;
+    
+width: 50%;
+margin: 0 auto;
+border-bottom: 1px solid rgb(197, 197, 197);
+padding-bottom: 40px;
+    }
+    .about-3 p{
+  
+        font-size: 15px;
+    
+       line-height: 25px;
+        font-size: 15px;
+        margin: 50px 40px;
+    }
+    .content{
+        border: 1px solid grey;
+    }
+    .contact{
+        padding-top: 40px;
+        text-align: center;
+        margin: 0 auto;
+        background-color:rgb(88, 184, 240);
+    }
+.contact1 h1 {
+    color: white;
+    margin-top: 30px;
+}
+.contact1 p {
+    color: white;
+
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+.contact2{
+    margin: 0 auto;
+    width: 60%;
+
+}
+.name{
+    width: 48%;
+    height: 35px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    border-radius: 3px;
+
+}
+.Masage{
+    width: 100%;
+    height: 90px;
+    border-radius: 3px;
+}
+.SEND{
+    background-color: rgb(10, 97, 119);
+    color: rgb(249, 254, 255);
+    border-radius: 50px;
+    padding: 17px 41px;
+    font-size:2vw ;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+
+}
+   .contact3{
+       padding: 30px;
+   }
